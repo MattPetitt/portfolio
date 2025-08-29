@@ -172,7 +172,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                className="text-blue-700"
+                className="text-blue-700 hover:underline"
                 href="https://letterboxd.com/MattPetitt/"
                 target="_blank"
               >
