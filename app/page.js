@@ -160,7 +160,7 @@ export default function Home() {
 
         <section id="now" className="py-12">
           <SectionHeader className="mb-6">Current Focus</SectionHeader>
-          <ul className="list-none text-md sm:text-md pl-6 font-serif text-lg space-y-2 leading-relaxed">
+          <ul className="list-none text-md sm:text-md font-serif text-lg space-y-2 leading-relaxed">
             <li>Growing and mentoring engineering teams</li>
             <li>
               Completing my degree in Business Administration with a focus on IT
