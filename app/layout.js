@@ -1,4 +1,5 @@
 import { EB_Garamond } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const ebGaramond = EB_Garamond({
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${ebGaramond.variable} antialiased`}>{children}</body>
+      <body className={`${ebGaramond.variable} antialiased`}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@vercel/speed-insights':
+        specifier: ^1.2.0
+        version: 1.2.0(next@15.5.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)
       next:
         specifier: ^15.5.2
         version: 15.5.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -614,6 +617,29 @@ packages:
     resolution: {integrity: sha1-U4seEDv42YZOe4XMlvqNb7bEB3c=}
     cpu: [x64]
     os: [win32]
+
+  '@vercel/speed-insights@1.2.0':
+    resolution: {integrity: sha1-FlbDWW1OwC2T0wHKRZRMG5skUYY=}
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha1-ftW7VZCLOy8bxVxq8WU7rafweTc=}
@@ -2281,6 +2307,11 @@ snapshots:
 
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
+
+  '@vercel/speed-insights@1.2.0(next@15.5.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)':
+    optionalDependencies:
+      next: 15.5.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      react: 19.1.1
 
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
